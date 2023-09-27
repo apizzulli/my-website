@@ -1,0 +1,38 @@
+.about-me-page{
+    background-color: #2B3035;
+    color: rgb(255, 255, 255);
+}
+.title{
+    font-size: x-large;
+}
+.image{
+    height: 36vh;
+    width: 25vh;
+}
+.header-flexbox{
+    width: 40%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 3%;
+}
+.intro-flexbox{
+    width: 85vw;
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6%;
+    font-size: larger;
+}
+.footer-flexbox{
+    width: 85vw;
+    margin-top: 35%;
+    font-size: 14pt;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6%;
+}

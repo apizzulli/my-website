@@ -1,0 +1,27 @@
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+  div.polaroid {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 100px;
+    display: absolute;
+    float:left;
+    margin-left: 5%;
+  }
+  
+  div.container {
+    height: 5%;
+    text-align: center;
+    padding: 10px 20px;
+    height: 10%;
+    margin-bottom: 15px;
+  }
+
+.image{
+    height: 85%;
+    width: 55%;
+  }

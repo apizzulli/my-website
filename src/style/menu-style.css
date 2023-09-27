@@ -1,0 +1,39 @@
+@keyframes menu-out {
+    0%   {left: 100%}
+    10% {left: 99%}
+    20%  {left: 98%}
+    30% {left: 97%}
+    /* 40% {left: 96%}
+    50%  {left: 95.5%;}
+    60% {left: 95%}
+    70% {left: 94.5%}
+    85% {left: 94%}
+    100% {left: 95%;} */
+}
+
+.menu{
+    float: right;
+    position: absolute;
+    height: 20%;
+    top: 8%;
+    left: 93%;
+    font-size: 9.5pt;
+    background-color: rgb(117, 139, 164);
+    animation-name: menu-out;
+    animation-duration: .5s;
+}
+.hovered-menu-tab{
+    background-color: rgb(233, 209, 179);
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 3% ;
+    height: 25%;    
+    cursor: pointer;
+}
+.menu-tab{
+    background-color: rgba(206, 206, 206, 0.453);
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 3% ;
+    height: 25%;
+}

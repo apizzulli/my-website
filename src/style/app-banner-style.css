@@ -1,0 +1,17 @@
+.app-banner{
+    position: fixed;
+    display: table-cell;
+    background-color: rgb(117, 139, 164);
+    height: 8vh;
+    font-family: Silom, sans-seriff;
+    font-weight: 10;
+    font-size: 15pt;
+    color: rgb(219, 195, 217);
+    margin-top: 50%;
+    margin-bottom: 50%;
+    vertical-align: middle;
+    width: 100vw;
+}
+.bg-body-tertiary{
+    background-color: aliceblue;
+}

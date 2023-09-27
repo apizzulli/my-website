@@ -1,0 +1,14 @@
+.list-group-item{
+    width: 75vw;
+    text-align: left;
+    background-color: #2B3035;
+
+}
+.list-group{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: auto;
+}
+#toggle-button{
+    width: 15vw;
+}
