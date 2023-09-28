@@ -12,14 +12,18 @@
 .header-flexbox{
     width: 40%;
     height: 15%;
-    margin-left: auto;
+    margin-top: 15%;
+    margin-left: 25%;
     margin-right: auto;
     display: flex;
     margin-top: 3%;
+    align-items: center;
+    justify-content: center;
 }
 .intro-flexbox{
     width: 85vw;
     padding-top: 4%;
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +32,7 @@
 }
 .footer-flexbox{
     width: 85vw;
-    margin-top: 35%;
+    margin-top: 25%;
     font-size: 14pt;
     width: 100vw;
     display: flex;
