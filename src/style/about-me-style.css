@@ -1,7 +1,23 @@
 .about-me-page{
     background-color: #2B3035;
     color: rgb(255, 255, 255);
+    height:100%;
+    width:100%;
 }
+@media only screen and (max-width: 600px) {
+    .header-flexbox {
+        padding-left: 12%;
+        height: 15%;
+        width:1%;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+        display: flex;
+        margin-top: 3%;
+        align-items: center;
+        justify-content: center;
+    }
+  }
 .title{
     font-size: x-large;
 }
@@ -10,11 +26,12 @@
     width: 25vh;
 }
 .header-flexbox{
-    width: 40%;
+    padding-left: 12%;
+    width: 40vw;
     height: 15%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 25%;
-    margin-right: auto;
+    margin-right: 25%;
     display: flex;
     margin-top: 3%;
     align-items: center;
@@ -23,7 +40,7 @@
 .intro-flexbox{
     width: 85vw;
     padding-top: 4%;
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +49,8 @@
 }
 .footer-flexbox{
     width: 85vw;
-    margin-top: 25%;
+    margin-top: 15%;
+    margin-bottom: 8%;
     font-size: 14pt;
     width: 100vw;
     display: flex;

@@ -10,12 +10,12 @@ export default function AboutMePage(){
     return(
         <div className="about-me-page">
             <div className='header-flexbox'>
-                <img style={{height:'15%', width:'15%',marginLeft:'25%'}} src = {github}></img>
-                <a href='https://github.com/apizzulli' style={{marginRight: '15%',marginLeft:'5%',color:'white'}}>GitHub - apizzulli</a>
-                <img style={{height:'15%', width:'15%'}} src={linkedinlogo}></img>
-                <a href='linkedin.com/in/anthonyjpizzulli' style={{marginRight:'5%',marginLeft:'5%',color:'white'}}>LinkedIn</a>
-                <img style={{height:'15%', width:'15%',marginLeft:'5%'}} src={email}></img>
-                <div style={{marginLeft:'5%'}}>anthony.pizzulli1@gmail.com</div>
+                <img style={{height:'30%', width:'30%'}} src = {github}></img>
+                <a href='https://github.com/apizzulli' style={{marginLeft:'4%',marginRight: '15%',color:'white'}}>GitHub - apizzulli</a>
+                <img style={{height:'30%', width:'30%'}} src={linkedinlogo}></img>
+                <a href='linkedin.com/in/anthonyjpizzulli' style={{marginLeft: '4%',marginRight:'15%',color:'white'}}>LinkedIn</a>
+                <img style={{height:'30%', width:'30%'}} src={email}></img>
+                <div style={{marginLeft:'4%'}}>anthony.pizzulli1@gmail.com</div>
             </div>
             <div className="intro-flexbox">
                 <img style={{marginLeft: '30px',width: '350px', height: '350px',borderRadius:'50%', float:'left'}} src = {headshot}></img>
