@@ -87,7 +87,7 @@ export default function ResumePage(){
 
   return (
     <div style={{backgroundColor:'#2B3035', height: '100vh'}}>
-        <div style={{marginTop:'2%',marginBottom:'3%',color:'white'}}>This is a page dedicated to displaying my resume. Click on a button below to toggle a different section on/off to make it easier to read.</div>
+        <div class='title' >This is a page dedicated to displaying my resume. Click on a button below to toggle a different section on/off to make it easier to read.</div>
         <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange}>
             <ToggleButton variant = "outline-light" id="tbg-check-1" value={1}>
                 Experience
