@@ -1,6 +1,5 @@
 .body{
-    border-radius: 1.5%;
-    font-size: 75%;
+    font-size: 14pt;
     color: rgb(255, 255, 255);
     height: 100vh;
     background-image: url('../images/skyline.jpeg');
@@ -8,17 +7,12 @@
     background-size: cover ;
     background-position: center center;
 }
-
 .body-text{
-    
-    -webkit-text-stroke-width: .5px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);    
-    padding-top: 15%;
-    height: 55%;
-    width: 75vw;
+    height: 15%;
+    width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    font-size: 16pt;
+    font-size: 25pt;
     font-weight: bolder;
 }
 @media only screen and (max-width: 700px) {
