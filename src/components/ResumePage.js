@@ -1,5 +1,4 @@
 
-import {getProj} from '../Controllers/ProjectController.js'
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import '../style/resume-style.css';

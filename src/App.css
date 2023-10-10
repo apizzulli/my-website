@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   width: 100%;
-  font-family: Silom, sans-seriff;
+  font-family: 'Gill Sans LT', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2B3035;
   margin: 0px;
   padding: 0px;
@@ -9,3 +9,4 @@
   background-repeat: no-repeat;
 }
 
+ 
