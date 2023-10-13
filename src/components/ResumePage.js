@@ -9,7 +9,7 @@ import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 export default function ResumePage(){
   return (
     <div style={{backgroundColor:'#2B3035', height: '100vh',color:'white'}}>
-        You can view my resume embedded within the webpage below.<br></br>
+        <div class='title'>You can view my resume embedded within the webpage below.</div><br></br>
         <iframe style={{marginTop:'5%'}}src='./resume-10.23.edited.pdf' width = '90%' height = '100%'></iframe>
     </div>
   );
