@@ -16,7 +16,7 @@ export default function AboutMePage(){
                 <img class = 'contact-icon' src = {github}></img>
                 <a href='https://github.com/apizzulli' class = 'contact-link' >GitHub-apizzulli</a>
                 <img class = 'contact-icon' src={linkedinlogo}></img>
-                <a href='www.linkedin.com/in/anthonyjpizzulli' class = 'contact-link' >LinkedIn</a>
+                <a href='https://linkedin.com/in/anthonyjpizzulli' class = 'contact-link' >LinkedIn</a>
             </div>
             <div className="intro-flexbox">
                 <img class='headshot' src = {headshot}></img>
