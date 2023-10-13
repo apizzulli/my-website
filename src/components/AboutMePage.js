@@ -11,8 +11,8 @@ export default function AboutMePage(){
     return(
         <div className="about-me-page">
             <div className='header-flexbox'>
-            <img class = 'contact-icon' src={email}></img>
-                <div class = 'contact-link' style={{marginLeft:'4%'}}>anthony.pizzulli1@gmail.com</div>
+                <img class = 'contact-icon' src={email}></img>
+                <div class = 'contact-link' >anthony.pizzulli1@gmail.com</div>
                 <img class = 'contact-icon' src = {github}></img>
                 <a href='https://github.com/apizzulli' class = 'contact-link' >GitHub-apizzulli</a>
                 <img class = 'contact-icon' src={linkedinlogo}></img>

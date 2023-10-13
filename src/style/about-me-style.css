@@ -24,7 +24,20 @@
 @media only screen and (max-width: 700px) {
     .header-flexbox {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    .intro-flexbox{
+        flex-direction: column;
+        width: 100vw;
+        padding-top: 4%;
+        margin-top: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 6%;
+        font-size: larger;
+    }    
     .contact-icon{
         margin-right: auto;
         margin-left: auto;
@@ -38,11 +51,17 @@
         margin-bottom: 15%;
     }
     .headshot{
-        width: 300px;
+        width: 275px;
         height:300px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .intro-flexbox{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
     }
     .sbu-image{
         margin-bottom: 25%;
