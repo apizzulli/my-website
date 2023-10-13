@@ -10,7 +10,7 @@ export default function ResumePage(){
   return (
     <div style={{backgroundColor:'#2B3035', height: '100vh',color:'white'}}>
         You can view my resume embedded within the webpage below.<br></br>
-        <iframe style={{marginTop:'5%'}}src='./resume-10.23.pdf' width = '90%' height = '100%'></iframe>
+        <iframe style={{marginTop:'5%'}}src='./resume-10.23.edited.pdf' width = '90%' height = '100%'></iframe>
     </div>
   );
 }
