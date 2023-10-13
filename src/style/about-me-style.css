@@ -14,6 +14,12 @@
     margin-right: 15%;
     color: white;
 }
+.contact-email{
+    font-size: small;
+    margin-left: 4%;
+    margin-right: 15%;
+    color: white;
+}
 .headshot{
     margin-left: 30px;
     width: 350px;
@@ -49,6 +55,10 @@
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 15%;
+    }
+    .contact-email{
+        padding-left: 12%;
+        margin-bottom: 10%;
     }
     .headshot{
         width: 275px;
