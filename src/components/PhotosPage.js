@@ -19,7 +19,7 @@ import lakgeorge from '../images/lake-george.JPG'
 export default function PhotosPage(){
     return(
         <div style={{height:'100%'}}>
-            <div class= 'intro'>I'm really passionate about travelling, so I decided to 
+            <div class= 'intro'>I'm really passionate about traveling, so I decided to 
             showcase some of my most notable and favorite moments and places!</div>
                 <div class='flex'> 
                     <div class="polaroid">
