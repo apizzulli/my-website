@@ -42,7 +42,6 @@ export default function AppBanner(){
                 <Nav className="me-auto">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/aboutme">About Me</Nav.Link>
-                  <Nav.Link href="/resume">Resume</Nav.Link>
                   <Nav.Link href="/photos">Photos</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
